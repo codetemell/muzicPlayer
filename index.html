@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+<div class="containerr">
+
+
+    <div class="music-player">
+<nav>
+
+    <div class="circle">
+
+        <i class="fa-solid  fa-angle-left"></i>
+    </div>
+    <div   style="             border-radius:50%;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    background:#fff;
+    color:#f53192;
+    box-shadow:0 5px  10px rgba(255,26,26,0.22);            "   onclick="sheik()" class="menu" class="circle">
+
+        <i    class="fa-solid  fa-bars"></i>
+    </div>
+
+ 
+        
+  
+</nav>
+
+
+<img src="./Img (9).png" alt=""  class="img-song">
+<h1  style="color: white;">Sifir Tolirans</h1>
+<p  style="margin-top: 20px;  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Hadise  </p>
+<br>
+<audio controls id="song">
+
+    <source  src="./b7d5255ba2bed4a7f4b2bb02a3064b87.mp3"  type="audio/mpeg">
+</audio>
+<input  type="range"  value="0" id="progress">
+
+<div class="controls">
+
+    <div> <i  class="  fa-solid fa-backward"></i> </div>
+    <div onclick="playPause()"><i class="  fa-solid fa-play"    id="ctrlicon"></i></div>
+    <div><i  class="  fa-solid fa-forward"></i></div>
+</div>
+    </div>
+</div>
+
+
+
+</body>
+<script   src="./main.js"></script>
+</html>
